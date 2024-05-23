@@ -39,15 +39,44 @@
 
   .header img {
       margin: 5px 0; 
-      
   }
-  .header  h1{
+  
+  .header h1 {
     margin-left: 235px;
-    color:white;
+    color: white;
   }
 
   .header a {
       margin: 5px 0;
       margin-left: 450px;
+  }
+}
+
+/* Media query for devices with a maximum width of 300px */
+@media only screen and (max-width: 400px) {
+  .header {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .header img {
+    width: 50px;
+    height: auto;
+    margin-left: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  .header h1 {
+      margin-left: 0;
+      font-size: 1.5rem;
+  }
+
+  .header a {
+      margin: 10px 0;
+      margin-left: 0;
+      padding: 5px;
+      font-size: 1.0rem;
   }
 }

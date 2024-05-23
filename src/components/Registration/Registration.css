@@ -1,58 +1,77 @@
+.registration-form {
+  width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
+.registration-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+  text-decoration: underline;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #555555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: #ff6347;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+
+@media only screen and (max-width: 400px) {
   .registration-form {
-    width: 400px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    padding: 10px;
   }
-  
   .registration-title {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333333;
-    text-decoration: underline;
+    font-size: 1.2rem;
   }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    font-weight: bold;
-    color: #555555;
-    
-  }
-  
   input[type="text"],
   input[type="email"],
   input[type="password"] {
-    width: calc(100% - 20px);
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #dddddd;
-    border-radius: 4px;
-    margin-top: 10px;
-  }
-  
-  .error-message {
-    color: #ff6347;
+    width: calc(100% - 10px);
+    padding: 8px;
     font-size: 12px;
-    margin-top: 5px;
   }
-  
   .submit-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    padding: 8px;
+    font-size: 14px;
   }
-  
-  .submit-button:hover {
-    background-color: #0056b3;
-  }
-  
+}

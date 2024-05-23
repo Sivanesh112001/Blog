@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './css/FetchDataComponent.css'; 
 
 const FetchDataComponent = () => {
   const [data, setData] = useState([]);
@@ -35,15 +36,15 @@ const FetchDataComponent = () => {
   return (
     <div>
       <h1>Posts</h1>
-      <ul>
+      <div className="card-container">
         {data.map(item => (
-          <li key={item.id}>
+          <div key={item.id} className="card">
             <h2>{item.title}</h2>
             <p>{item.body}</p>
-            <h3>Author Name</h3>
-          </li>
+            <h3>Vijay</h3>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
