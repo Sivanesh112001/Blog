@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './common.css';
+import './contact.css';
 const Contact = () => {
   return (
     <div>
