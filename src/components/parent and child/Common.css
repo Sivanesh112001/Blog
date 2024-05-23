@@ -55,3 +55,28 @@ button {
     border-radius: 5px;
   }
 }
+@media only screen and (max-width: 600px) {
+  input[type="text"],
+  textarea,
+  input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .child {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .parent h1 {
+    font-size: medium;
+  }
+
+  button {
+    padding: 8px;
+    border-radius: 5px;
+  }
+}
