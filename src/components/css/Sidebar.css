@@ -58,3 +58,26 @@
     font-size: 1rem; /* Adjust font size for smaller screens */
   }
 }
+@media (max-width: 600px) {
+  .sidebar {
+    width: 50%; /* Adjust width to fill the available space */
+  }
+
+  .sidebar h1 {
+    padding-top: 20px; /* Reduce padding for smaller screens */
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    margin-left: 0; /* Center align or adjust margin as needed */
+  }
+
+  .sidebar nav ul {
+    margin-left: 0; /* Adjust margin for smaller screens */
+  }
+
+  .sidebar nav ul li {
+    margin-bottom: 0.5rem; /* Reduce margin between list items */
+  }
+
+  .sidebar nav ul li a {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}

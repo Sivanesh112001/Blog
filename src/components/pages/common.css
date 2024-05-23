@@ -48,3 +48,20 @@ img {
         max-width: 400px;   
     }
 }
+@media only screen and (max-width: 600px) {
+    .separate {
+        gap: 10px;
+    }
+    .about {
+        gap: 10px; 
+    }
+    .blog h1 {
+        font-size: 20px; 
+    }
+    .blog-image {
+        max-width: 400px; 
+    }
+    .contact {
+        max-width: 400px;   
+    }
+}
