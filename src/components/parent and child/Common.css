@@ -1,31 +1,57 @@
 input[type="text"],
+textarea,
+input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.child {
+  width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.parent h1 {
+  font-size: large;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+}
+
+
+@media only screen and (max-width: 300px) {
+  input[type="text"],
   textarea,
   input[type="number"] {
-    width: 90%;
+    width: 80%;
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .child {
+    width: 100%;
     padding: 10px;
-    font-size: 14px;
-    border: 1px solid #dddddd;
-    border-radius: 4px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  .child{
-     
-        width: 400px;
-        padding: 20px;
-        background-color: #ffffff;
-        border-radius: 8px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      
   }
 
-  .parent h1{
-    font-size:large;
+  .parent h1 {
+    font-size: medium;
   }
 
-  button{
-    padding:10px;
-    border-radius: 10px;
-    background-color: green;
-    color:white;
+  button {
+    padding: 8px;
+    border-radius: 5px;
   }
+}
