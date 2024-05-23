@@ -55,9 +55,9 @@ input[type="password"] {
 }
 
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
   .registration-form {
-    width: 80%;
+    width: 90%;
     padding: 10px;
   }
   .registration-title {

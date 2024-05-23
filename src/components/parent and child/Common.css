@@ -30,11 +30,11 @@ button {
 }
 
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
   input[type="text"],
   textarea,
   input[type="number"] {
-    width: 80%;
+    width: 90%;
     padding: 8px;
     font-size: 12px;
     margin-top: 10px;
