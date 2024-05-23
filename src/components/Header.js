@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/Header.css';
+import { Link } from 'react-router-dom';
 import Image from './assests/header.jpeg';
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
     <header className="header">
       <img src={Image} alt="discription of header"/>
       <h1>BLOG</h1>
-      <a href="/Register">Register</a>
+      <Link to="/Register">Register</Link>
     </header>
   );
 };
